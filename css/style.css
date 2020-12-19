@@ -1,0 +1,282 @@
+/* font-family: 'Damion', sans-serif; */
+
+/* font-family: 'Titillium Web', sans-serif; */
+
+.block-1 {
+    width: 100%;
+    background-color: #87509c;
+    min-height: 596px;
+}
+
+.container {
+    /* Ширина контейнера 100%, т.е резиновый, растянутый на весь экран */
+    width: 100%;
+    /* Максимальная ширина 1170px */
+    max-width: 1170px;
+    /* Выравнивание и отступы: сверху 0, справа auto снизу 0, слева auto. А для контейнера, если прописать "margin: 0 auto", то он его делает по центру */
+    margin: 0 auto;
+    /* Добавляем контейнеру внутренний отступ слева и справа, чтобы контент не прилипал к стенкам на планшетах и тд */
+    /* Но при этом придется еще увеличить на 15+15 ширину контейнера(1170+30) */
+    padding: 0 15px;
+}
+
+.block-1__content {}
+
+.block-1__logo__menu {
+    display: flex;
+    justify-content: space-between;
+    /* Выравнивание обектов относительно друг другу в блоке по горизонтале */
+    align-items: center;
+    padding-top: 57px;
+    margin-bottom: 134px;
+}
+
+.block-1__logo {
+    padding-left: 62px;
+}
+
+.logo {}
+
+.block-1__menu {
+    display: flex;
+    padding-right: 28px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.block-1__link {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: 11px;
+    background-color: rgb(39%, 23%, 47%, 0);
+    border-radius: 5px;
+    padding: 10px 17px;
+}
+
+.block-1__link:first-child {
+    margin-left: 0;
+}
+
+.block-1__link:hover {
+    background-color: rgb(39%, 23%, 47%, 1);
+}
+
+.block-1__text {
+    color: #f7f3ea;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48.82px;
+    text-align: center;
+    margin-bottom: 55px;
+    padding: 0 117px;
+}
+
+.block-1__bottom {
+    text-align: center;
+}
+
+.btm {
+    /* Создаем кнопку */
+    display: inline-block;
+    /* Выравнивание по вертикальной границе по верху */
+    vertical-align: top;
+    font-size: 18px;
+    color: #ffffff;
+    /* Начертание шрифта. Вместо 600 можно написать SEMI-BOLD */
+    font-weight: 600;
+    /* Все буквы делаем заглавными */
+    text-transform: uppercase;
+    /* Убираем подчеркивание у ссылок */
+    text-decoration: none;
+    /* Внутренний отступ сверху 14px, справа 40 снизу 14px, слева 40 */
+    padding: 27px 81px 23px 82px;
+    /* Делаем у кнопки закругления */
+    border-radius: 5px;
+    /* ---Чтобы кнопка с тегом A и тегом BUTTON не отличались провисываем следующее--- */
+    /* font-family: inherit; - это наследование родтельского шрифта, либо прописываем шрифт какой надо */
+    /* font-family: inherit; */
+    font-family: 'Titillium Web', sans-serif;
+    /* У тега BUTTON по умолчанию есть граница, поэтому убираем(или оставляем если необходимо) */
+    border: 0px;
+    /* Изменяем курсор на палец */
+    cursor: pointer;
+    background-color: #eb7d4b;
+    /* line-height: 26.19px; */
+    letter-spacing: 0.27px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.15);
+}
+
+.btm:hover {
+    background-color: #ec8454;
+}
+
+.block-2 {
+    width: 100%;
+    background-color: #17c2a4;
+    min-height: 747px;
+}
+
+.block-2__top {
+    text-align: center;
+    padding-top: 119px;
+}
+
+.block-2__title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    letter-spacing: 4px;
+    margin-bottom: 21px;
+}
+
+.block-2__line {
+    margin-bottom: 9px;
+}
+
+.block-2__description {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-bottom: 81px;
+    padding: 0 261px;
+}
+
+.block-2__content__row {}
+
+.block-2__row {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.block-2__branding {
+    width: 25%;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.branding__icon {
+    padding-left: 26px;
+    margin-bottom: 62px;
+}
+
+.branding__title {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin-bottom: 22px;
+    padding-left: 12px;
+}
+
+.branding__text {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    padding-left: 14px;
+}
+
+.block-2__design {
+    width: 25%;
+    text-align: center;
+    /* padding: 0 32px; */
+}
+
+.design__icon {
+    margin-bottom: 62px;
+ }
+
+.design__title {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin-bottom: 27px;
+}
+
+.design__text {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.block-2__development {
+    width: 25%;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.development__icon {
+    margin-bottom: 62px;
+}
+
+.development__title {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin-bottom: 27px;
+}
+
+.development__text {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.block-2__rocket {
+    width: 25%;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.rocket__icon {
+    margin-bottom: 62px;
+}
+
+.rocket__title {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin-bottom: 27px;
+}
+
+.rocket__text {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
