@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 90px;
     font-family: "rdp";
     letter-spacing: 5px;
     word-spacing: 20px;
@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 42px;
     font-family: "rdp";
     letter-spacing: 20px;
     color: rgb(244, 250, 160);
@@ -105,7 +105,7 @@ h2 {
 /* ------------------------------------------------------------------------- */
 
 .footer__inner {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .footer__title {
@@ -119,12 +119,9 @@ h2 {
 .location__map {
     opacity: 0.7;
     transition: opacity 0.3s linear;
-    width: 60%;
+    width: 50%;
     overflow: hidden;
     padding-right: 10px;
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .location__map:hover {
@@ -132,11 +129,8 @@ h2 {
 }
 
 .location__nav {
-    width: 40%;
+    width: 50%;
     padding-left: 10px;
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .menu {
@@ -145,7 +139,7 @@ h2 {
 
 .submenu__adress {
     position: relative;
-    font-size: 22px;
+    font-size: 20px;
     color: rgb(244, 250, 160);
     border-radius: 10px;
     padding-left: 15px;
@@ -155,7 +149,7 @@ h2 {
 .submenu {
     font-size: 20px;
     position: absolute;
-    left: 65%;
+    left: 57%;
     top: 25%;
     z-index: 2;
     opacity: 0;
