@@ -1,14 +1,8 @@
 body {
-    background: #d8bbbb url(../img/fon.jpg) center;
+    background: #000000 url(../img/fon.jpg) center;
     -webkit-background-size: cover;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
-}
-
-#loadcontent {
-    height: 200px;
-    width: 200px;
-    border: 1px solid #000;
 }
 
 .container {
@@ -142,11 +136,9 @@ h1 {
     .ctitle {
         font-size: 24px;
     }
-
     .cb {
         font-size: 35px;
     }
-
     .cb span {
         font-size: 40px;
     }
@@ -156,23 +148,18 @@ h1 {
     .header {
         padding: 30px 0 30px;
     }
-
     h1 {
         font-size: 85px;
     }
-
     .ctitle {
         font-size: 24px;
     }
-
     .ca {
         font-size: 24px;
     }
-
     .cb {
         font-size: 30px;
     }
-
     .cb span {
         font-size: 35px;
     }
@@ -182,29 +169,23 @@ h1 {
     .header {
         width: 600px;
     }
-
     h1 {
         letter-spacing: 10px;
     }
-
     .a {
         margin-bottom: 15px;
         font-size: 7vw;
     }
-
     .b {
         margin-bottom: 25px;
         font-size: 7vw;
     }
-
     .ctitle {
         font-size: 22px;
     }
-
     .cb {
         font-size: 25px;
     }
-
     .cb span {
         font-size: 30px;
     }
@@ -217,37 +198,29 @@ h1 {
         border-bottom: 1px solid #ffffff;
         margin-bottom: 20px;
     }
-
     h1 {
         font-size: 10vw;
     }
-
     .atext {
         margin-right: 15px;
     }
-
     .adash {
         margin-right: 15px;
     }
-
     .btext {
         margin-right: 15px;
     }
-
     .bdash {
         margin-right: 15px;
     }
-
     .c {
         display: block;
         font-size: 20px;
     }
-
     .ca {
         width: 100%;
         margin-bottom: 30px;
     }
-
     .cb {
         padding-top: 15px;
         width: 100%;
@@ -255,11 +228,9 @@ h1 {
         border-top: 1px solid #ffffff;
         border-left: 0;
     }
-
     .cb span {
         font-size: 6vw;
     }
-
     .ctitle {
         margin-bottom: 20px;
         text-align: center;
@@ -268,19 +239,15 @@ h1 {
         padding-top: 25px;
         padding-bottom: 0;
     }
-
     .сtext {
         width: 30%;
     }
-
     .сdash {
         width: 20%;
     }
-
     .сmeaning {
         width: 30%;
     }
-
     .name {
         justify-content: center;
     }
