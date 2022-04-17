@@ -38,6 +38,11 @@ h3 {
 }
 
 /* ------ Header ------ */
+header {
+    position: fixed;
+    width: 100%;
+}
+
 .header {
     position: absolute;
     display: flex;
@@ -132,7 +137,7 @@ input:checked+.slider:before {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 15px;
+    margin-top: 85px;
 }
 
 .block1 {
@@ -398,10 +403,6 @@ input:checked+.slider:before {
         transform: scale(0.5);
     }
 
-    .group1 {
-        margin-top: 0px;
-    }
-
     .block1 {
         width: 350px;
         height: 70px;
@@ -442,6 +443,10 @@ input:checked+.slider:before {
         height: 52px;
     }
 
+    .group1 {
+        margin-top: 55px;
+    }
+
     .block1 {
         width: 300px;
         height: 60px;
@@ -480,6 +485,10 @@ input:checked+.slider:before {
 
     .b_w {
         height: 52px;
+    }
+
+    .group1 {
+        margin-top: 50px;
     }
 
     .block1 {
