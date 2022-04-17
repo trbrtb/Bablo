@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/null.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/logostyle.css">
+    <title>Сколько просрали</title>
+    <script src="./js/logo.js"></script>
+</head>
+
+<body>
+     <div id="yaalk" class="yaalk">
+        <div class="app-logo"></div>
+    </div> 
+    <header class="header">
+        <div class="title">
+            <h1>Бухалово</h1>
+        </div>
+    </header>
+    <div class="b_w">
+        <label class="switch">
+            <img class="icon_d" src="./img/d_b.png" alt="">
+            <input type="checkbox" onclick="changeMode()">
+            <span class="slider"></span>
+            <img class="icon_n" src="./img/n_b.png" alt="">
+        </label>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="content_inner">
+                <div class="group1">
+                    <div class="block1">
+                        <h3>Сколько пропили - 0р</h3>
+                    </div>
+                    <div class="block1">
+                        <h3>Получается каждый по - 0р</h3>
+                    </div>
+
+                </div>
+                <div class="group2">
+                    <div class="group_title">
+                        <h2>Кто сколько потратил:</h2>
+                    </div>
+                    <div class="block2">
+                        <h3>Юлай - 0р</h3>
+                    </div>
+                    <div class="block2">
+                        <h3>д.Серый - 0р</h3>
+                    </div>
+                    <div class="block2">
+                        <h3>Артем - 0р</h3>
+                    </div>
+                    <!-- <div class="block2">
+                        <h3>Ваня - 0р</h3>
+                    </div> -->
+                </div>
+                <div class="group3">
+                    <div class="group_title">
+                        <h2>Кто кому должен:</h2>
+                    </div>
+                    <div class="block3">
+                        <h3>Юлай должен д.Серому - 0р</h3>
+                    </div>
+                    <div class="block3">
+                        <h3>Артем должен д.Серому - 0р</h3>
+                    </div>
+                    <div class="block3">
+                        <h3>Ваня должен д.Серому - 0р</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function changeMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+
+</html>
