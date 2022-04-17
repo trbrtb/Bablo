@@ -460,6 +460,7 @@ input:checked+.slider:before {
         margin: 5px;
     }
 }
+
 @media screen and (max-width:340px) {
     h1 {
         font-size: 32px;
